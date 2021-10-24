@@ -13,9 +13,10 @@ public class OddEven {
         Scanner scanner = new Scanner(System.in);
         int userInputOddEven = scanner.nextInt();
 
-        if (userInputOddEven % 2 == 0)
-        System.out.println("A megadott szám: " + userInputOddEven + ", tehát páros.");
-        else
-        System.out.println("A megadott szám: " + userInputOddEven + ", tehát páratlan.");
+        if (userInputOddEven % 2 == 0) {
+            System.out.println("A megadott szám: " + userInputOddEven + ", tehát páros.");
+        } else {
+            System.out.println("A megadott szám: " + userInputOddEven + ", tehát páratlan.");
+        }
     }
 }
